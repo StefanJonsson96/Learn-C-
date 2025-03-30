@@ -8,12 +8,13 @@ set CFLAGS=/Zi /EHsc /DEBUG
 :: Initialize the source files variable
 set SRCS=
 
-:: Loop through all .c files in the current directory
+:: Compile all .c files into object files
 for %%f in (*.c) do (
-    set SRCS=!SRCS! %%f
+    %CC% %CFLAGS% /c %%f
 )
 
-:: Compile the source files
-%CC% %CFLAGS% %SRCS%
+:: Link all object files into main.exe
+%CC% %CFLAGS% /Fe:main.exe *.obj
+
 
 endlocal

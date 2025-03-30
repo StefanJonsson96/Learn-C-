@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        ".fantomasignore": "ignore",
+        "tempconversion.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "cl.exe",
+    "FSharp.suggestGitignore": false
+}
