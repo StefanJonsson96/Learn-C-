@@ -2,6 +2,7 @@
 #include "pointers.h"
 #include "sizeOfTypes.h"
 #include "tempConversion.h"
+#include "controlFlow.h"
 
 int main() {
    // pointers();
@@ -10,7 +11,10 @@ int main() {
    // tempConversion();
    // strings();
    // readInput();
-   stringConcatenation();
-   stringConcatenationSafe();
+   // stringConcatenation();
+   // stringConcatenationSafe();
+   ifElse();
+   switchCase();
+   ternaryOperator();
    return 0;
 }
