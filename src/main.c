@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include "pointers.h"
-#include "sizeOfTypes.h"
-#include "tempConversion.h"
-#include "controlFlow.h"
+#include "all_includes.h"
 
 int main() {
    // pointers();
@@ -13,8 +9,12 @@ int main() {
    // readInput();
    // stringConcatenation();
    // stringConcatenationSafe();
-   ifElse();
-   switchCase();
-   ternaryOperator();
+   // ifElse();
+   // switchCase();
+   // ternaryOperator();
+   forLoop();
+   whileLoop();
+   doWhileLoop();
+   
    return 0;
 }
